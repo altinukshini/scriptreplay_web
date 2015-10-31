@@ -145,7 +145,7 @@ function saveJson(data) {
     var jsonStr = JSON.stringify(data);
     var element = document.createElement('a');
     element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(jsonStr));
-    element.setAttribute('download', 'screenReplay.json');
+    element.setAttribute('download', 'scriptReplay.json');
     element.style.display = 'none';
     document.body.appendChild(element);
     element.click();
