@@ -1,0 +1,40 @@
+.header{
+  text-align: center;
+  border-bottom:3px solid #da2128;
+  color:#da2128;
+  font-size:22px;
+  font-family: "Verdana",regular,sans-serif;
+  margin-bottom:20px;
+}
+#logo{
+  height:   92px;
+  padding:  10px;
+}
+h3{
+  color:#da2128;
+}
+h2{
+  color: #444;
+}
+html{
+  font-size:  12px;
+}
+body{
+  color: #444;
+}
+.ui-widget.ui-widget-content {
+  border:none;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+  border-radius: 0;
+}
+.ui-tabs .ui-tabs-nav li {
+  border: 1px solid #999;
+  border-radius: 0;
+  margin: 1px 0.2em 5px 0;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+  border:1px solid #da2128 !important;
+  background:#da2128;
+}

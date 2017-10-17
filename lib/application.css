@@ -42,8 +42,8 @@ nav {
 }
 
 body {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     margin: 0;
     padding: 0;
     font-family: monospace !important;
@@ -64,14 +64,36 @@ div.terminal {
 }
 
 h1 {
-    color: white;
+    color: black;
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 #console {
-    min-height: 40ex;
-    height: 80%;
+    color:white;
+    min-height: 80ex;
+    height: 90%;
+    background-color: black;
 }
+
+.showterm-controls {
+    opacity: 1 !important;
+    padding: 10px;
+    background-color: black !important;
+    color: white !important; 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.showterm-controls a {
+    color:white !important;
+}
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+
